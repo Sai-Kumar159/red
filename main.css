@@ -1,0 +1,63 @@
+/* Resetting default margin and padding */
+body, h1, h2, h3, h4, h5, h6, p, blockquote, figure, dl, dd, ul, ol, li, fieldset, legend, textarea, input, button, table, th, td {
+    margin: 0;
+    padding: 0;
+}
+
+/* Ensuring elements are sized properly */
+body {
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+}
+
+/* Styling the video container */
+.video-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+}
+
+#background-video {
+    min-width: 100%;
+    min-height: 100%;
+}
+
+/* Styling the content box */
+.content-box {
+    position: relative;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+}
+
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Styling the custom table */
+.custom-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.custom-table td, .custom-table th {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.custom-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.custom-table tr.green-row td {
+    background-color: lightgreen;
+}
